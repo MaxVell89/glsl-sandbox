@@ -1,0 +1,34 @@
+// colors
+$accent: #69b13d;
+$accent2: darken($accent, 10%);
+$accent3: #d01515;
+
+$grey: #1b1818;
+$grey2: #d3d9d7;
+
+$textDark: $grey;
+$error: $accent3;
+$linkColor: $accent;
+
+// fonts
+$roboto: 'Roboto', sans-serif;
+$font: $roboto;
+
+// grid and responsive
+$contrainer: 1170px;
+$columns: 12;
+$offset: 30px;
+$offset_one_side: ($offset / 2);
+$fields: 20px;
+
+$z-index: (
+    header: 100,
+    modal: 300
+);
+
+$break_xl: 1640px;
+$break_lg: 1320px;
+$break_md: 1023px;
+$break_sm: 767px;
+$break_xs: 575px;
+$break_xxs: 449px;

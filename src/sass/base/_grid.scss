@@ -1,0 +1,8 @@
+.container {
+    width: 100%;
+    max-width: $contrainer + $fields*2;
+    padding-left: $fields;
+    padding-right: $fields;
+    margin-left: auto;
+    margin-right: auto;
+}

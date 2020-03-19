@@ -1,0 +1,66 @@
+.lock {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+
+.inline-center {
+	text-align: center;
+}
+
+.hide {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+.d-none {
+	display: none !important;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.md-hide-only {
+	@include rd($break_sm, $break_md) {
+		display: none !important;
+	}
+}
+
+.md-hide {
+	@include md-block {
+		display: none !important;
+	}
+}
+
+.md-show {
+	display: none !important;
+
+	@include md-block {
+		display: block !important;
+	}
+}
+
+.sm-hide {
+	@include sm-block {
+		display: none !important;
+	}
+}
+
+.sm-show {
+	display: none !important;
+
+	@include sm-block {
+		display: block !important;
+	}
+}
+
+.sm-show-flex {
+	display: none !important;
+
+	@include sm-block {
+		display: flex !important;
+	}
+}
